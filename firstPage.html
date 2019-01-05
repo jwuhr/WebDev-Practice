@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- this is for metadata -->
+
+	<title>Form Demo</title>
+
+</head>
+<body>
+
+	<h1>Login</h1>
+
+<!-- <form>
+	<label>
+		Username:
+		<input type="text" placeholder="username" name="username">
+	</label>
+	<label>
+		Password:
+		<input type="password" placeholder="password" name="password">
+	</label>
+	<button>Login</button>
+</form> -->
+
+<form>
+	<label for="username">email:</label>
+	<input id="username" type="email" placeholder="email" name="email" required>
+	
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" name="password" required>
+
+	<button>Login</button>
+</form>
+
+<p>Do you like cats or dogs</p>
+
+<form>
+	<label for="dogs">Dogs: </label>
+	<input id="dogs" type="radio" name="petChoice" value="DOGS">
+
+	<label for="cats">Cats: </label>
+	<input id="cats" type="radio" name="petChoice" value="CATS">
+
+	<p>What's your favourite colour?</p>
+
+	<select name="colour">
+		<option value="1">Red</option>
+		<option value="2">Orange</option>
+		<option value="3">Blue</option>
+	</select>
+
+	<br/>
+	<br/>
+
+	<textarea name="paragraph" rows="5" cols="40"></textarea>
+
+	<input type="submit">
+</form>
+
+
+</body>
+</html>
