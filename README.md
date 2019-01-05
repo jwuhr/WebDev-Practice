@@ -1,1 +1,1 @@
-#Projects from Web Developing Practice
+Projects from Web Developing Practice
