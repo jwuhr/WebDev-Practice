@@ -1,0 +1,9 @@
+body {
+	background: orange;
+}
+#special {
+	background: yellow;
+}
+.other {
+	text-decoration: line-through;
+}

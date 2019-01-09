@@ -1,8 +1,24 @@
 h1 {
-	color: red;
+	color: #3B5998;
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 3px solid purple;
 }
 
 li {
-	color: yellow;
+	color: rgb(139, 157, 195);
 }
 
+h4{
+	color: rgba(99, 20, 152, .9);
+	
+ }
+
+body{
+	background: #346722;
+/*	background: url(https://cdn3.volusion.com/ahrek.bsjlt/v/vspfiles/photos/KT-22b-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
