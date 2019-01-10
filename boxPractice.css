@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	margin: 30px;
+}
+
+table {
+	height: 350px;
+	width: 350px;
+	margin: auto auto;
+}
+
+tr {
+	width: 33%;
+}
+
+td {
+	width: 33%;
+}
+
+.mid {
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+tr.center td {
+	border-bottom-style: solid;
+	border-top-style: solid;
+}
