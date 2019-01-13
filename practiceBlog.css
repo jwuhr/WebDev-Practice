@@ -1,0 +1,35 @@
+body {
+	border: 20px solid lightgray;
+	width: 70%;
+	margin: 20px auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	margin: 22px 12px;
+}
+
+h1 {
+	margin: 22px 12px;
+	font-weight: 700;
+}
+
+div {
+	margin: 12px;
+}
+
+.indent {
+	border-left: 8px solid lightgray;
+	padding-left: 10px;
+}
+
+.date {
+	text-transform: uppercase;
+	color: skyblue;
+	letter-spacing: 0.2rem;
+}
+
+#first {
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 16px;
+}
